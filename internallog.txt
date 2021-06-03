@@ -1,0 +1,670 @@
+2021-06-01 19:30:30.4815 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-01 19:30:30.6463 Debug Found assembly location directory: 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-01 19:30:30.6463 Debug Auto loading based on NLog-Assembly found location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:30:30.6463 Debug Search for auto loading files in location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:30:30.6593 Debug Start auto loading, location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:30:30.6593 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-01 19:30:30.6593 Info Loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-01 19:30:30.8282 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-01 19:30:30.8282 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-01 19:30:30.8282 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-06-01 19:30:30.8282 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-01 19:30:30.8282 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-01 19:30:30.8282 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-01 19:30:30.8282 Debug Auto loading done
+2021-06-01 19:30:30.8282 Info Message Template Auto Format enabled
+2021-06-01 19:30:30.8748 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.8748 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:30:30.8979 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-01 19:30:30.8979 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-01 19:30:30.8979 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.8979 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:30.8979 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.8979 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:30:30.9084 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:30:30.9084 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:30:30.9084 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:30.9084 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:30.9084 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9084 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-01 19:30:30.9084 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9084 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:30:30.9263 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-01 19:30:30.9263 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-01 19:30:30.9263 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9263 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:30:30.9263 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-01 19:30:30.9263 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9263 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:30:30.9263 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-01 19:30:30.9263 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-01 19:30:30.9263 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9263 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:30.9263 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9368 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:30:30.9368 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:30:30.9368 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:30:30.9368 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:30.9368 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:30.9368 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:30.9368 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:30:30.9368 Info Adding target FileTarget(Name=logfile)
+2021-06-01 19:30:30.9368 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-01 19:30:30.9368 Trace ParseRulesElement
+2021-06-01 19:30:30.9748 Debug Watching path 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge' filter 'nlog.config' for changes.
+2021-06-01 19:30:30.9748 Debug --- NLog configuration dump ---
+2021-06-01 19:30:30.9748 Debug Targets:
+2021-06-01 19:30:30.9748 Debug File Target[logfile]
+2021-06-01 19:30:30.9748 Debug Rules:
+2021-06-01 19:30:30.9835 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-01 19:30:30.9835 Debug --- End of NLog configuration dump ---
+2021-06-01 19:30:30.9835 Trace FindReachableObject<System.Object>:
+2021-06-01 19:30:30.9835 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-01 19:30:30.9835 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-01 19:30:30.9835 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-01 19:30:30.9835 Trace   Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-01 19:30:30.9835 Trace   Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:30:30.9835 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:30.9835 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:30.9835 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:30:30.9835 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:30.9835 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-01 19:30:30.9988 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:30:30.9988 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:30.9988 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:30:30.9988 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:30.9988 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:30:30.9988 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:30:30.9988 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:30:30.9988 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:30.9988 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:30.9988 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:30.9988 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:30:30.9988 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-01 19:30:30.9988 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-01 19:30:30.9988 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-01 19:30:30.9988 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge/nlog.config
+2021-06-01 19:30:31.0157 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-01 19:30:31.0157 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-01 19:30:31.0157 Trace Initializing Layout Renderer: ${message}
+2021-06-01 19:30:31.0157 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:30:31.0295 Trace Initializing Layout Renderer: ${level}
+2021-06-01 19:30:31.0295 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-01 19:30:31.0295 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:31.0295 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:30:31.0295 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:31.0295 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:31.0295 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-01 19:30:31.0456 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:30:31.0456 Trace Initializing Layout Renderer: ${longdate}
+2021-06-01 19:30:31.0456 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-01 19:30:31.0456 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:31.0456 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:30:31.0456 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:31.0456 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:30:31.0456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:31.0456 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:30:31.0456 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:30:31.0456 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:30:31.0456 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:31.0456 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:30:31.0456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:31.0456 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:30:31.0456 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:30:31.0456 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-01 19:30:31.0456 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:30:31.0456 Trace Initializing 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-01 19:30:31.0456 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:30:31.0456 Trace Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:30:31.0456 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:30:31.0456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:31.0615 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:30:31.0615 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:30:31.0615 Trace Initializing File Target[logfile]
+2021-06-01 19:30:31.0615 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-01 19:30:31.0615 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-01 19:30:31.0615 Trace  Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-01 19:30:31.0615 Trace  Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:30:31.0615 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-01 19:30:31.0615 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:30:31.0615 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-01 19:30:31.0615 Trace File Target[logfile] has 2 layouts
+2021-06-01 19:30:31.0615 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-01 19:31:07.5355 Debug Targets for LoggerService.LoggerManager by level:
+2021-06-01 19:31:07.5355 Debug Trace =>
+2021-06-01 19:31:07.5355 Debug Debug => logfile
+2021-06-01 19:31:07.5355 Debug Info => logfile
+2021-06-01 19:31:07.5355 Debug Warn => logfile
+2021-06-01 19:31:07.5355 Debug Error => logfile
+2021-06-01 19:31:07.5355 Debug Fatal => logfile
+2021-06-01 19:31:07.5773 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/2021-06-01_logfile.txt'
+2021-06-01 19:31:07.5773 Debug Creating file appender: C:/Users/Gabs/source/repos/CurrencyChallenge/logs/2021-06-01_logfile.txt
+2021-06-01 19:31:07.5944 Trace Opening C:/Users/Gabs/source/repos/CurrencyChallenge/logs/2021-06-01_logfile.txt with allowFileSharedWriting=False
+2021-06-01 19:47:01.1958 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-01 19:47:01.3063 Debug Found assembly location directory: 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-01 19:47:01.3063 Debug Auto loading based on NLog-Assembly found location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:47:01.3063 Debug Search for auto loading files in location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:47:01.3159 Debug Start auto loading, location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-01 19:47:01.3159 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-01 19:47:01.3159 Info Loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-01 19:47:01.3390 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-01 19:47:01.3390 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-01 19:47:01.3390 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-06-01 19:47:01.3438 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-01 19:47:01.3438 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-01 19:47:01.3438 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-01 19:47:01.3438 Debug Auto loading done
+2021-06-01 19:47:01.3438 Info Message Template Auto Format enabled
+2021-06-01 19:47:01.3786 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.3786 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:47:01.3946 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-01 19:47:01.3946 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-01 19:47:01.3946 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.3946 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.3946 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.3946 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:47:01.4046 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:47:01.4046 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:47:01.4046 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.4046 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.4046 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4046 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-01 19:47:01.4046 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4046 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:47:01.4241 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-01 19:47:01.4241 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-01 19:47:01.4241 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4241 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:47:01.4241 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-01 19:47:01.4241 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4241 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:47:01.4241 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-01 19:47:01.4241 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-01 19:47:01.4241 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4241 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.4241 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4241 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:47:01.4241 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:47:01.4241 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:47:01.4241 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.4241 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.4241 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.4241 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:47:01.4369 Info Adding target FileTarget(Name=logfile)
+2021-06-01 19:47:01.4369 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-01 19:47:01.4369 Trace ParseRulesElement
+2021-06-01 19:47:01.4662 Debug Watching path 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge' filter 'nlog.config' for changes.
+2021-06-01 19:47:01.4678 Debug --- NLog configuration dump ---
+2021-06-01 19:47:01.4678 Debug Targets:
+2021-06-01 19:47:01.4678 Debug File Target[logfile]
+2021-06-01 19:47:01.4678 Debug Rules:
+2021-06-01 19:47:01.4678 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-01 19:47:01.4678 Debug --- End of NLog configuration dump ---
+2021-06-01 19:47:01.4678 Trace FindReachableObject<System.Object>:
+2021-06-01 19:47:01.4678 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-01 19:47:01.4678 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-01 19:47:01.4678 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-01 19:47:01.4678 Trace   Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-01 19:47:01.4678 Trace   Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:47:01.4678 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.4678 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.4829 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:47:01.4829 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.4829 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-01 19:47:01.4829 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:47:01.4829 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.4829 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:47:01.4829 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.4829 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:47:01.4829 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:47:01.4829 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:47:01.4829 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.4829 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.4829 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.4829 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:47:01.4829 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-01 19:47:01.4829 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-01 19:47:01.4829 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-01 19:47:01.4829 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge/nlog.config
+2021-06-01 19:47:01.4997 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-01 19:47:01.4997 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-01 19:47:01.4997 Trace Initializing Layout Renderer: ${message}
+2021-06-01 19:47:01.4997 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:47:01.4997 Trace Initializing Layout Renderer: ${level}
+2021-06-01 19:47:01.4997 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-01 19:47:01.5153 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.5153 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:47:01.5153 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.5153 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.5153 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-01 19:47:01.5153 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:47:01.5153 Trace Initializing Layout Renderer: ${longdate}
+2021-06-01 19:47:01.5153 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-01 19:47:01.5153 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.5153 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:47:01.5153 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.5153 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-01 19:47:01.5153 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.5153 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-01 19:47:01.5153 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-01 19:47:01.5153 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-01 19:47:01.5153 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.5153 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-01 19:47:01.5298 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.5298 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-01 19:47:01.5298 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:47:01.5298 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-01 19:47:01.5298 Trace Initializing Layout Renderer: ${literal}
+2021-06-01 19:47:01.5298 Trace Initializing 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-01 19:47:01.5298 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-01 19:47:01.5298 Trace Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:47:01.5298 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-01 19:47:01.5298 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.5298 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-01 19:47:01.5298 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-01 19:47:01.5298 Trace Initializing File Target[logfile]
+2021-06-01 19:47:01.5298 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-01 19:47:01.5298 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-01 19:47:01.5298 Trace  Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-01 19:47:01.5298 Trace  Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-01 19:47:01.5298 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-01 19:47:01.5298 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-01 19:47:01.5298 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-01 19:47:01.5298 Trace File Target[logfile] has 2 layouts
+2021-06-01 19:47:01.5298 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-03 10:23:21.9165 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 10:23:22.0115 Debug Found assembly location directory: 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-03 10:23:22.0115 Debug Auto loading based on NLog-Assembly found location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:23:22.0115 Debug Search for auto loading files in location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:23:22.0196 Debug Start auto loading, location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:23:22.0196 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 10:23:22.0196 Info Loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 10:23:22.1225 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-03 10:23:22.1231 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 10:23:22.1231 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-06-03 10:23:22.1231 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 10:23:22.1231 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 10:23:22.1231 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-03 10:23:22.1231 Debug Auto loading done
+2021-06-03 10:23:22.1231 Info Message Template Auto Format enabled
+2021-06-03 10:23:22.1607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.1607 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:23:22.1749 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 10:23:22.1749 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 10:23:22.1749 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.1749 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.1749 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.1749 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:23:22.1749 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:23:22.1749 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:23:22.1872 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.1872 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.1872 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.1872 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-03 10:23:22.1872 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.1872 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:23:22.2009 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-03 10:23:22.2009 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 10:23:22.2009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2009 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:23:22.2009 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 10:23:22.2009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2009 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:23:22.2009 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 10:23:22.2009 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 10:23:22.2009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2009 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.2009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2009 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:23:22.2009 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:23:22.2009 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:23:22.2009 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2009 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.2009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2009 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:23:22.2009 Info Adding target FileTarget(Name=logfile)
+2021-06-03 10:23:22.2009 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-03 10:23:22.2009 Trace ParseRulesElement
+2021-06-03 10:23:22.2441 Debug Watching path 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge' filter 'nlog.config' for changes.
+2021-06-03 10:23:22.2441 Debug --- NLog configuration dump ---
+2021-06-03 10:23:22.2441 Debug Targets:
+2021-06-03 10:23:22.2441 Debug File Target[logfile]
+2021-06-03 10:23:22.2480 Debug Rules:
+2021-06-03 10:23:22.2480 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-03 10:23:22.2480 Debug --- End of NLog configuration dump ---
+2021-06-03 10:23:22.2480 Trace FindReachableObject<System.Object>:
+2021-06-03 10:23:22.2480 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-03 10:23:22.2480 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-03 10:23:22.2480 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-03 10:23:22.2480 Trace   Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 10:23:22.2480 Trace   Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:23:22.2480 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2480 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2642 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:23:22.2642 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2642 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 10:23:22.2642 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:23:22.2642 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2642 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:23:22.2642 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2642 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:23:22.2642 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:23:22.2642 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:23:22.2642 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2642 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.2642 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2642 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:23:22.2642 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 10:23:22.2642 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-03 10:23:22.2642 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-03 10:23:22.2642 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge/nlog.config
+2021-06-03 10:23:22.2806 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-03 10:23:22.2806 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-03 10:23:22.2806 Trace Initializing Layout Renderer: ${message}
+2021-06-03 10:23:22.2806 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:23:22.2806 Trace Initializing Layout Renderer: ${level}
+2021-06-03 10:23:22.2806 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-03 10:23:22.2971 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2971 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:23:22.2971 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2971 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.2971 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-03 10:23:22.2971 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:23:22.2971 Trace Initializing Layout Renderer: ${longdate}
+2021-06-03 10:23:22.2971 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 10:23:22.2971 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.2971 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:23:22.2971 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2971 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:23:22.2971 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2971 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:23:22.2971 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:23:22.2971 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:23:22.2971 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.2971 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:23:22.2971 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.2971 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:23:22.2971 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:23:22.3110 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-03 10:23:22.3110 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:23:22.3110 Trace Initializing 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 10:23:22.3110 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:23:22.3110 Trace Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:23:22.3110 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:23:22.3110 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.3110 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:23:22.3110 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:23:22.3110 Trace Initializing File Target[logfile]
+2021-06-03 10:23:22.3110 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-03 10:23:22.3110 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-03 10:23:22.3110 Trace  Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 10:23:22.3110 Trace  Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:23:22.3110 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 10:23:22.3110 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:23:22.3110 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 10:23:22.3110 Trace File Target[logfile] has 2 layouts
+2021-06-03 10:23:22.3110 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-03 10:31:54.7772 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 10:31:54.8684 Debug Found assembly location directory: 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-03 10:31:54.8684 Debug Auto loading based on NLog-Assembly found location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:31:54.8684 Debug Search for auto loading files in location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:31:54.8773 Debug Start auto loading, location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 10:31:54.8773 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 10:31:54.8773 Info Loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 10:31:54.8982 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-03 10:31:54.8982 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 10:31:54.8982 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-06-03 10:31:54.8982 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 10:31:54.9046 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 10:31:54.9046 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-03 10:31:54.9046 Debug Auto loading done
+2021-06-03 10:31:54.9046 Info Message Template Auto Format enabled
+2021-06-03 10:31:54.9296 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9296 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:31:54.9414 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 10:31:54.9414 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 10:31:54.9414 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9414 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:54.9414 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9414 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:31:54.9414 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:31:54.9414 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:31:54.9523 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:54.9523 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:54.9523 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9523 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-03 10:31:54.9523 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9523 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:31:54.9523 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-03 10:31:54.9673 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 10:31:54.9673 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9673 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:31:54.9673 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 10:31:54.9673 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9673 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:31:54.9673 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 10:31:54.9673 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 10:31:54.9673 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9673 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:54.9673 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9673 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:31:54.9673 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:31:54.9673 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:31:54.9673 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:54.9673 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:54.9673 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:54.9673 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:31:54.9673 Info Adding target FileTarget(Name=logfile)
+2021-06-03 10:31:54.9673 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-03 10:31:54.9673 Trace ParseRulesElement
+2021-06-03 10:31:55.0102 Debug Watching path 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge' filter 'nlog.config' for changes.
+2021-06-03 10:31:55.0102 Debug --- NLog configuration dump ---
+2021-06-03 10:31:55.0102 Debug Targets:
+2021-06-03 10:31:55.0136 Debug File Target[logfile]
+2021-06-03 10:31:55.0136 Debug Rules:
+2021-06-03 10:31:55.0136 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-03 10:31:55.0136 Debug --- End of NLog configuration dump ---
+2021-06-03 10:31:55.0136 Trace FindReachableObject<System.Object>:
+2021-06-03 10:31:55.0136 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-03 10:31:55.0136 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-03 10:31:55.0136 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-03 10:31:55.0136 Trace   Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 10:31:55.0136 Trace   Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:31:55.0136 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0136 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0136 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:31:55.0136 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0301 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 10:31:55.0301 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:31:55.0301 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0301 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:31:55.0301 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0301 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:31:55.0301 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:31:55.0301 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:31:55.0301 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0301 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:55.0301 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0301 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:31:55.0301 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 10:31:55.0301 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-03 10:31:55.0301 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-03 10:31:55.0301 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge/nlog.config
+2021-06-03 10:31:55.0301 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-03 10:31:55.0531 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-03 10:31:55.0531 Trace Initializing Layout Renderer: ${message}
+2021-06-03 10:31:55.0531 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:31:55.0531 Trace Initializing Layout Renderer: ${level}
+2021-06-03 10:31:55.0531 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-03 10:31:55.0612 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:55.0612 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:31:55.0612 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0612 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:55.0612 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-03 10:31:55.0612 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:31:55.0612 Trace Initializing Layout Renderer: ${longdate}
+2021-06-03 10:31:55.0612 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 10:31:55.0612 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:55.0612 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:31:55.0612 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0612 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 10:31:55.0612 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0612 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 10:31:55.0612 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 10:31:55.0612 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 10:31:55.0612 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0612 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 10:31:55.0612 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0612 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 10:31:55.0765 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:31:55.0765 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-03 10:31:55.0765 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 10:31:55.0765 Trace Initializing 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 10:31:55.0765 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 10:31:55.0765 Trace Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:31:55.0765 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 10:31:55.0765 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0765 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 10:31:55.0765 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 10:31:55.0765 Trace Initializing File Target[logfile]
+2021-06-03 10:31:55.0765 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-03 10:31:55.0765 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-03 10:31:55.0765 Trace  Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 10:31:55.0765 Trace  Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 10:31:55.0765 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 10:31:55.0765 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 10:31:55.0765 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 10:31:55.0765 Trace File Target[logfile] has 2 layouts
+2021-06-03 10:31:55.0765 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-03 12:04:29.7201 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 12:04:29.8195 Debug Found assembly location directory: 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-03 12:04:29.8195 Debug Auto loading based on NLog-Assembly found location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 12:04:29.8195 Debug Search for auto loading files in location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 12:04:29.8301 Debug Start auto loading, location: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0
+2021-06-03 12:04:29.8301 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 12:04:29.8301 Info Loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-06-03 12:04:29.9353 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-03 12:04:29.9358 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-03 12:04:29.9358 Info Auto loading assembly file: C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-06-03 12:04:29.9358 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 12:04:29.9358 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-03 12:04:29.9358 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-03 12:04:29.9358 Debug Auto loading done
+2021-06-03 12:04:29.9358 Info Message Template Auto Format enabled
+2021-06-03 12:04:29.9653 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:29.9690 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 12:04:29.9690 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 12:04:29.9690 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 12:04:29.9690 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:29.9690 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:29.9690 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:29.9830 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 12:04:29.9830 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 12:04:29.9830 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 12:04:29.9830 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:29.9830 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:29.9830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:29.9830 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-03 12:04:29.9830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:29.9830 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 12:04:30.0022 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-03 12:04:30.0022 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 12:04:30.0022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0022 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 12:04:30.0022 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 12:04:30.0022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0022 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 12:04:30.0022 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-03 12:04:30.0022 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-03 12:04:30.0022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0022 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:30.0022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0022 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 12:04:30.0022 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 12:04:30.0022 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 12:04:30.0022 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0022 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:30.0022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0022 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 12:04:30.0140 Info Adding target FileTarget(Name=logfile)
+2021-06-03 12:04:30.0140 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-03 12:04:30.0140 Trace ParseRulesElement
+2021-06-03 12:04:30.0399 Debug Watching path 'C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge' filter 'nlog.config' for changes.
+2021-06-03 12:04:30.0399 Debug --- NLog configuration dump ---
+2021-06-03 12:04:30.0399 Debug Targets:
+2021-06-03 12:04:30.0399 Debug File Target[logfile]
+2021-06-03 12:04:30.0399 Debug Rules:
+2021-06-03 12:04:30.0473 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-03 12:04:30.0473 Debug --- End of NLog configuration dump ---
+2021-06-03 12:04:30.0473 Trace FindReachableObject<System.Object>:
+2021-06-03 12:04:30.0473 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-03 12:04:30.0473 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-03 12:04:30.0473 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-03 12:04:30.0473 Trace   Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 12:04:30.0473 Trace   Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 12:04:30.0473 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0473 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.0473 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 12:04:30.0473 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.0473 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 12:04:30.0473 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 12:04:30.0611 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0611 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 12:04:30.0611 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.0611 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 12:04:30.0611 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 12:04:30.0611 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 12:04:30.0611 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0611 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:30.0611 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.0611 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 12:04:30.0611 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 12:04:30.0611 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-03 12:04:30.0611 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-03 12:04:30.0611 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\Gabs\source\repos\CurrencyChallenge\CurrencyChallenge/nlog.config
+2021-06-03 12:04:30.0763 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-03 12:04:30.0763 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-03 12:04:30.0763 Trace Initializing Layout Renderer: ${message}
+2021-06-03 12:04:30.0763 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 12:04:30.0763 Trace Initializing Layout Renderer: ${level}
+2021-06-03 12:04:30.0763 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-03 12:04:30.0956 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0956 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 12:04:30.0956 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0956 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:30.0956 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-03 12:04:30.0956 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 12:04:30.0956 Trace Initializing Layout Renderer: ${longdate}
+2021-06-03 12:04:30.0956 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-03 12:04:30.0956 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.0956 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 12:04:30.0956 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.0956 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-03 12:04:30.0956 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.0956 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-03 12:04:30.1081 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-03 12:04:30.1081 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-03 12:04:30.1081 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.1081 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-03 12:04:30.1081 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.1081 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-03 12:04:30.1081 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 12:04:30.1081 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-03 12:04:30.1081 Trace Initializing Layout Renderer: ${literal}
+2021-06-03 12:04:30.1081 Trace Initializing 'C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'
+2021-06-03 12:04:30.1081 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-03 12:04:30.1081 Trace Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 12:04:30.1081 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-03 12:04:30.1081 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.1081 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-03 12:04:30.1081 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-03 12:04:30.1081 Trace Initializing File Target[logfile]
+2021-06-03 12:04:30.1081 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-03 12:04:30.1081 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-03 12:04:30.1081 Trace  Scanning Property FileName ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-03 12:04:30.1228 Trace  Scanning SimpleLayout ''C:/Users/Gabs/source/repos/CurrencyChallenge/logs/${shortdate}_logfile.txt''
+2021-06-03 12:04:30.1228 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-03 12:04:30.1228 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-03 12:04:30.1228 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-03 12:04:30.1228 Trace File Target[logfile] has 2 layouts
+2021-06-03 12:04:30.1228 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory

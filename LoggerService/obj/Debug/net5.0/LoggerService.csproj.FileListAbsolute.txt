@@ -1,0 +1,12 @@
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\bin\Debug\net5.0\LoggerService.dll
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.dll
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.pdb
+C:\Users\Gabs\source\repos\CurrencyChallenge\LoggerService\obj\Debug\net5.0\LoggerService.csprojAssemblyReference.cache
